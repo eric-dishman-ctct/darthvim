@@ -1,4 +1,7 @@
--- return {}
+-- NOTE: Helper functions that were used in LazyVim
+-- I copied the treesitter config from LazyVim config since I don't understand
+-- this code yet
+
 function Dedup(list)
   local ret = {}
   local seen = {}
