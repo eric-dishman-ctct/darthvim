@@ -5,6 +5,8 @@ vim.g.have_nerd_font = true
 
 local opt = vim.opt
 
+opt.shell = 'pwsh'
+
 opt.completeopt = 'menu,menuone,noselect'
 
 opt.conceallevel = 2 -- Hide * markup for bold and italic, but not markers with substitutions
