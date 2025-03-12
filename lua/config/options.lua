@@ -52,7 +52,7 @@ opt.sidescrolloff = 8 -- Columns of context
 opt.smoothscroll = true
 
 opt.shiftround = true -- Round indent
-opt.shiftwidth = 2 -- Size of an indent
+opt.shiftwidth = 4 -- Size of an indent
 opt.smartindent = true -- Insert indents automatically
 
 opt.tabstop = 2 -- Number of spaces tabs count for
