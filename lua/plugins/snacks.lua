@@ -1,19 +1,14 @@
 return 
 {
   "folke/snacks.nvim",
-  opts = {
-    indent = { enabled = true },
-    input = { enabled = false },
-    notifier = { enabled = false },
-    scope = { enabled = true },
-    scroll = { 
-        enabled = true,
-        easing = "outQuad",
-    },
-    statuscolumn = { enabled = false }, -- we set this in options.lua
-    -- toggle = { map = LazyVim.safe_keymap_set },
-    words = { enabled = false },
-  },
+  priority = 1000,
+  lazy = false,
+  -- opts = {
+  --   scope = { enabled = true },
+  --   statuscolumn = { enabled = false }, -- we set this in options.lua
+  --   -- toggle = { map = LazyVim.safe_keymap_set },
+  --   words = { enabled = false },
+  -- },
   -- stylua: ignore
   -- keys = {
   --   { "<leader>n", function()
