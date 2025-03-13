@@ -136,7 +136,7 @@ return {
     enabled = true,
     config = function()
       -- If treesitter is already loaded, we need to run config again for textobjects
-        -- FIXME: I don't have LazyVim, what do I do here?
+      -- FIXME: I don't have LazyVim, what do I do here?
       if IsLoaded("nvim-treesitter") then
         local opts = Opts("nvim-treesitter")
         require("nvim-treesitter.configs").setup({ textobjects = opts.textobjects })
